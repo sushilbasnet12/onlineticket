@@ -5,6 +5,9 @@
   list-style: none;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none !important;
+}
 
 body {
   font-family: montserrat;
@@ -195,4 +198,19 @@ button:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+#hero-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+#hero-about > p,
+#hero-about > img {
+  width: 50%;
+  text-align: justify;
+  padding: 0 20px;
 }
